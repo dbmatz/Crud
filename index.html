@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Sisbook</title>
+</head>
+<body>
+    <form action="cadastrarLivro.php" method="post">
+        <div id="container">
+            <h1>Cadastrar livro</h1>
+            <div>
+                <label>Título</label>
+                <br>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label>Autor</label>
+                <br>
+                <input type="text" name="autor" id="autor">
+            </div>
+            <div>
+                <label>Gênero</label>
+                <br>
+                <input type="text" name="genero" id="genero">
+            </div>
+            <div>
+                <label>Data de lançamento</label>
+                <br>
+                <input type="date" name="datal" id="datal">
+            </div>
+            <div>
+                <label>Descrição</label>
+                <br>
+                <textarea name="descricao" id="descricao"></textarea>
+            </div><br>
+                <button type="submit" name="cadastrarLivro" class="btn-success">Cadastrar</button>
+        </div>
+    </form>
+    <img src="gatinho.jpeg" alt="gatinho">
+</body>
+</html>
