@@ -1,6 +1,5 @@
 <?php
 
-
 require_once('conectaBD.php');
 
 $sql = 'SELECT * FROM livros_cad WHERE id = :id';
